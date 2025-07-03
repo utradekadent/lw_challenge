@@ -1,7 +1,6 @@
 INTRODUCTION
 -------------------------------
 The technical basis for the solution which addresses core use cases and handling multi-language UI tests is Playwright and Pytest (Python).
-The project also contains an example of a11y auditing automation using the axe-core package. Sadly, axe is not natively supported in Python environments, so the test has written in TypeScript.
 
 The main use cases are covered by four (core) tests:
 	- test_copy_paste_translation.py
