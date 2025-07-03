@@ -23,10 +23,6 @@ DIRECTORY STRUCTURE
 -------------------------------
 
 lw_challenge/
-├── bonus/
-│   └── a11y/
-│       ├── tests
-│       └── playwright.config.ts
 ├── extra_tests/
 │   ├── i18n/
 │   │   ├── da.json
