@@ -109,7 +109,7 @@ LINUX (Tested against Ubuntu 24.04)
 	
 		virtualenv lw_challenge_proj_env
 		
-	5. Activate the environment
+	5.	Activate the environment
 	
 		source lw_challenge_proj_env/bin/activate
 		
