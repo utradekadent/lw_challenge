@@ -1,3 +1,4 @@
+.gitignore
 test_files/source_text-DA.docx
 tests/conftest_copy.py
 tests/__pycache__/
