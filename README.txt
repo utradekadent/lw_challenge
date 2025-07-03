@@ -135,7 +135,7 @@ To execute the core tests, run
 
 (The -s option is only needed for 'test_file_translation' to display load time-related information)
 	
-To execute the multi-langage UI test, run
+To execute the multi-language UI test, run
 
 	pytest -k 'homepage'
 	
