@@ -57,7 +57,7 @@ lw_challenge/
 INSTALLATION
 -------------------------------
 
-	WINDOWS
+	WINDOWS (tested against Win 10 and 11 Home)
 	
 	1.	Install Python.
 
@@ -93,7 +93,7 @@ INSTALLATION
 		playwright install
 					
 
-	LINUX
+	LINUX (Tested against Ubuntu 20.04 and 24.04)
 	
 	1.	Untar 'lw_challenge.tar.gz' and go to the root directory of the project. Then, open a terminal and run
 		
@@ -106,9 +106,9 @@ INSTALLATION
 		sudo apt update
 		sudo apt install python3-pip
 			
-	3.	Install required packages
+	3.	Install required packages, ignoring pytest-retry (no matching distribution found for this package)
 		
-		pip install -r requirements.txt
+		grep -v 'unwanted-package-name' requirements.txt | pip install -r /dev/stdin
 			
 	4. Install Playwright browsers
 	
@@ -117,11 +117,6 @@ INSTALLATION
 	
 	
 	
-		
-			
-	
-	
-		
 		
 
 RUNNING THE TESTS

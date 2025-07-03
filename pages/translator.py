@@ -9,7 +9,7 @@ SOURCE_TEXT = "Nice to meet you!"
 TARGET_TEXT = "Godt at møde dig!"
 
 # Specify the source text doc file
-SOURCE_DOC = "test_files\\source_text.docx"
+SOURCE_DOC = "test_files/source_text.docx"
 
 
 class TranslatorPage:
