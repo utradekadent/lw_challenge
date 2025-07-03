@@ -153,7 +153,7 @@ The supported browsers are:
 	- firefox
 	- chrome
 	- msedge
-	- webkit (Safari)
+	- webkit (safari)
 	
 4.	The tests seem pretty robust, however, when uploading doc files into the translator, I have seen an intermittent error "An unexpected error has occurred during the document translation.". I suspect it has to do with with Firebase request throttling (403 error). As a result, I have introduced a logic to retry 'test_file_translation' in case it fails. Pytest will re-execute it 3 times with 5-second intervals. If the test still fails, I reccomend switching to msedge as the test browser, as I had best results while using it.
 
