@@ -118,7 +118,7 @@ LINUX (Tested against Ubuntu 24.04)
 		
 		grep -v 'pytest-retry' requirements.txt | pip install -r /dev/stdin
 			
-	7. Install Playwright browsers
+	7.	Install Playwright browsers
 	
 		playwright install
 		playwright install-deps
