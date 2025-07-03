@@ -85,44 +85,44 @@ WINDOWS (tested against Win 10 and 11 Home)
 				
 	3. 	Install Playwright browsers
 				
-		playwright install
+			playwright install
 					
 
 LINUX (Tested against Ubuntu 24.04)
 	
 	1.	Untar 'lw_challenge.tar.gz' and go to the root directory of the project. Then, open a terminal and run
 		
-		mkdir lw_challenge
-		tar -xvf lw.challenge.tar.gz -C lw_challenge/
-		cd lw_challenge/
+			mkdir lw_challenge
+			tar -xvf lw.challenge.tar.gz -C lw_challenge/
+			cd lw_challenge/
 			
 	2.	Install pip for Python 3
 			
-		sudo apt update
-		sudo apt install python3-pip
+			sudo apt update
+			sudo apt install python3-pip
 		
 	3.	Install Virtual Environments
 	
-		sudo apt install virtualenv
+			sudo apt install virtualenv
 	
 	4.	Create a new environment
 	
-		virtualenv lw_challenge_proj_env
+			virtualenv lw_challenge_proj_env
 		
 	5.	Activate the environment
 	
-		source lw_challenge_proj_env/bin/activate
+			source lw_challenge_proj_env/bin/activate
 		
 			
 	6.	Install required packages, ignoring pytest-retry (no matching distribution found for this package)
 		
-		grep -v 'pytest-retry' requirements.txt | pip install -r /dev/stdin
+			grep -v 'pytest-retry' requirements.txt | pip install -r /dev/stdin
 			
 	7.	Install Playwright browsers
 	
-		playwright install
-		playwright install-deps
-		playwright install msedge (optional)
+			playwright install
+			playwright install-deps
+			playwright install msedge (optional)
 	
 	
 
