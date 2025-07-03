@@ -1,0 +1,6 @@
+playwright
+pytest
+pytest-playwright
+pytest-retry
+docxpy
+pytest-xdist

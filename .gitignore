@@ -1,0 +1,5 @@
+test_files/source_text-DA.docx
+tests/conftest_copy.py
+tests/test_file_translation_old.py
+pages/__pycache__/
+extra_tests/__pycache__/
