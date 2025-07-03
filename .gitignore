@@ -4,4 +4,4 @@ tests/__pycache__/
 extra_tests/__pycache__/
 tests/test_file_translation_old.py
 pages/__pycache__/
-bonus/a11y/tests
+bonus/
